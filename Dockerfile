@@ -11,6 +11,7 @@
 
 FROM ubuntu:14.04
 MAINTAINER Mandeep Singh Bhatia "mandeep.singh.bhatia@gmail.com"
+MAINTAINER David Hart "dhart@opencog.org"
 
 RUN apt-get -y update
 RUN apt-get -y install software-properties-common wget screen

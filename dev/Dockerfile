@@ -5,8 +5,11 @@
 
 FROM opencog/ros-indigo-deps
 MAINTAINER Mandeep Singh Bhatia "mandeep.singh.bhatia@gmail.com"
+MAINTAINER David Hart "dhart@opencog.org"
 
 RUN apt-get -y update
 RUN apt-get -y install camorama geany
+RUN apt-get -y install cmake-curses-gui git mercurial subversion
+RUN apt-get -y install less meld vim-gnome git tmux
 
 CMD /bin/bash
